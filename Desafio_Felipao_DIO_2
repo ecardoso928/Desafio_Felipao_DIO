@@ -1,0 +1,30 @@
+print("#" * 50)
+print("####     Desafio Felipão DIO     " )
+print("#" * 50)
+
+"""Comparador nivel heroi"""
+
+nomeHeroi = input("Informe o nome do herói: ")        
+nivelHeroi = int(input("Informe o nível atual do herói: "))    
+
+if nivelHeroi <= 1000: 
+    print(f"O Herói de nome : {nomeHeroi} está no nível de Ferro ")
+elif nivelHeroi <= 2000:
+    print(f"O Herói de nome : {nomeHeroi} está no nível de Bronze")
+elif nivelHeroi <= 5000:
+    print(f"O Herói de nome : {nomeHeroi} está no nível de Prata")
+elif nivelHeroi <= 6000:
+    print(f"O Herói de nome : {nomeHeroi} está no nível de Ouro")
+elif nivelHeroi <= 7000:
+    print(f"O Herói de nome : {nomeHeroi} está no nível de Platina")
+elif nivelHeroi <= 8000:
+    print(f"O Herói de nome : {nomeHeroi} está no nível de Ascendente")
+elif nivelHeroi <= 9000:
+    print(f"O Herói de nome : {nomeHeroi} está no nível de Imortal")
+else :
+    print(f"O Herói de nome : {nomeHeroi} está no nível de Radiante")
+
+print("FIM")
+
+print("#" * 50)
+
